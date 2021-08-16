@@ -8,7 +8,7 @@ import { Route, Switch, BrowserRouter as Router, Redirect } from 'react-router-d
 const HeaderComponent = (props) => <MyContext.Consumer>{context => <Header {...props} {...context} />}</MyContext.Consumer>
 
 const AppComponent = () => (
-  <div className="w-full h-full flex-col App" data-testid='app-container'>
+  <div id='app-container' className="w-full h-full flex-col bg-no-repeat bg-center bg-cover" data-testid='app-container'>
     <HeaderComponent />
     <div className='flex h-full flex-1'>
       <Router basename='/'>

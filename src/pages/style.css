@@ -1,3 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap'); */
+
 .home-container {
-    background: url('../resources/svg/landing_bg.svg');
+	//background: url('../resources/svg/landing_bg.svg');
+}
+#above-fold > h1 {
+	background: -webkit-linear-gradient(45deg, #3a05a4, #ff9c64);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/* Show the world */
+	font-family: Poppins;
+	font-style: normal;
+	font-size: 80px;
+	line-height: 120px;
+	/* identical to box height */
+	mix-blend-mode: multiply;
+}
+#sub-title > #sub-title-text {
+    font-family: Poppins;
+    font-size: 32px;
+}
+#action-text {
+    font-size: 16px;
+}
+#action-button {
+    background-image: url('../resources/svg/button_bg.svg');
+    width: 242px;
+    height: 56px;
 }

@@ -39,7 +39,7 @@ module.exports = {
                 dark: '#003D43',
             },
             gray: {
-                light: '#EEEEEE',
+                light: '#58536D',
                 medium: '#DDDDDD',
                 dark: '#888888',
             },
@@ -63,8 +63,8 @@ module.exports = {
         }),
         textColor: theme => ({
             ...theme('colors'),
-            'primary': '#F48A21',
-            'secondary': '#888888',
+            'primary': '#000000',
+            'secondary': '#ffffff',
             'danger': '#E74C3C',
         }),
         fontSize: {
