@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Step 1
 
-Install all dependecies needed for the app using the yarn install command from the root directory
+Make sure your active branch is the develop branch then install all dependecies needed for the app using the yarn install command from the root directory
 
 ## Available Scripts
 
